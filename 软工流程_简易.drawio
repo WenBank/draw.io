@@ -1,29 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T07:15:28.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="s7jCwbgCLg-Vw3jSZp0v" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T08:55:47.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="XCeN_xZWmq8GWNz10qYW" version="20.2.2" type="github">
   <diagram id="ZEDSErjurSb--ElszAQZ" name="第 1 页">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RRjbRayA_8hJFMINaerB-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RRjbRayA_8hJFMINaerB-2" target="RRjbRayA_8hJFMINaerB-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RRjbRayA_8hJFMINaerB-2" value="导入头文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="210" width="120" height="40" as="geometry" />
+        <mxCell id="RRjbRayA_8hJFMINaerB-2" value="导入头文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RRjbRayA_8hJFMINaerB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RRjbRayA_8hJFMINaerB-4" target="RRjbRayA_8hJFMINaerB-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RRjbRayA_8hJFMINaerB-4" value="超网构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="236" y="210" width="120" height="40" as="geometry" />
+        <mxCell id="RRjbRayA_8hJFMINaerB-4" value="超网构建、设置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="220" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RRjbRayA_8hJFMINaerB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RRjbRayA_8hJFMINaerB-6" target="RRjbRayA_8hJFMINaerB-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RRjbRayA_8hJFMINaerB-6" value="自定义验证函数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="416" y="210" width="120" height="40" as="geometry" />
+        <mxCell id="RRjbRayA_8hJFMINaerB-6" value="自定义验证函数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="383" y="210" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RRjbRayA_8hJFMINaerB-7" value="构建模型转换" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="210" width="120" height="40" as="geometry" />
+        <mxCell id="mPaliDgNY3yW5I1ZMUyb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RRjbRayA_8hJFMINaerB-7" target="mPaliDgNY3yW5I1ZMUyb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RRjbRayA_8hJFMINaerB-7" value="每个epoch随机采样子网" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="544" y="210" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mPaliDgNY3yW5I1ZMUyb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mPaliDgNY3yW5I1ZMUyb-1" target="mPaliDgNY3yW5I1ZMUyb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPaliDgNY3yW5I1ZMUyb-1" value="超网验证函数输出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="724" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mPaliDgNY3yW5I1ZMUyb-3" value="超网输出保存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="884" y="210" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
